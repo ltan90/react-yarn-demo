@@ -71,9 +71,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### `Structure Folder/File Advanced`
 src
+
 __assets
+
 ____global.css
+
 ____logo.svg
+
 __components
 ____form
       __tests__
