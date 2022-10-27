@@ -68,3 +68,121 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `Structure Folder/File Advanced`
+src
+__assets
+____global.css
+____logo.svg
+__components
+____form
+      __tests__
+________Checkbox.test.js
+________FormInput.test.js
+________FormSelect.test.js
+________RadioButton.test.js
+______Checkbox.js
+______FormInput.js
+______FormSelect.js
+______RadioButton.js
+____ui
+      __tests__
+________Button.js
+________ButtonGroup.js
+________Dropdown.js
+________Modal.js
+______Button.js
+______ButtonGroup.js
+______Dropdown.js
+______Modal.js
+__context
+    __tests__
+______AnalyticsContext.test.js
+____AnalyticsContext.js
+__data
+____configValues.json
+____constants.js
+____defaultTodo.json
+__features
+____authentication
+______components
+				__tests__
+__________LoginForm.test.js
+__________SignupForm.test.js
+________LoginForm.js
+________SignupForm.js
+______hooks
+				__tests__
+__________useLogin.test.js
+__________useSignup.test.js
+__________useVerifyPassword.test.js
+________useLogin.js
+________useSignup.js
+________useVerifyPassword.js
+______services
+				__tests__
+__________getUser.test.js
+__________login.test.js
+__________signup.test.js
+________getUser.js
+________login.js
+________signup.js
+______index.js
+____projects
+______components
+______services
+______index.js
+____settings
+______components
+				__tests__
+__________SettingForm.test.js
+________SettingForm.js
+______context
+______hooks
+______services
+______index.js
+____todos
+______assets
+______components
+______context
+______services
+______index.js
+__hooks
+    __tests__
+______useFetch.test.js
+______useLocalStorage.test.js
+____useFetch.js
+____useLocalStorage.js
+__layouts
+    __tests__
+______Navbar.test.js
+______PageContainer.test.js
+______Sidebar.test.js
+____Navbar.js
+____PageContainer.js
+____Sidebar.js
+__lib
+    __tests__
+______fetch.test.js
+____fetch.js
+__pages
+____Home.js
+____Login.js
+____Settings.js
+____Signup.js
+____Projects.js
+__services
+    __tests__
+______analytics.test.js
+____analytics.js
+__utils
+    __tests__
+______formatCurrency.test.js
+______formatDate.test.js
+____formatCurrency.js
+____formatDate.js
+__App.js
+__App.test.js
+__index.js
+__reportWebVitals.js
+__setupTests.js
