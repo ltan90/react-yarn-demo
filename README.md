@@ -70,11 +70,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### `Structure Folder/File Advanced`
-## src
-## __assets
-## ____global.css
-## ____logo.svg
-## __components
+# src
+# __assets
+# ____global.css
+# ____logo.svg
+# __components
 ____form
       __tests__
 ________Checkbox.test.js
