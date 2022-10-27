@@ -73,9 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 src
 
 __assets
-
 ____global.css
-
 ____logo.svg
 
 __components
